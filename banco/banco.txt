@@ -1,0 +1,17 @@
+create table usuario(
+    id int(11) AUTO_INCREMENT,
+    login varchar(10),
+    senha varchar(255),
+    PRIMARY KEY(id)
+    )
+
+
+
+    CREATE TABLE usuarios(
+    id int(11) PRIMARY KEY AUTO_INCREMENT,
+    nome varchar(100) not null,
+    telefone varchar(13),
+    email varchar(100) not null,
+    usuario varchar(20) not null,
+    senha varchar(100) not null
+    )
