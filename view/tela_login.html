@@ -1,24 +1,196 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login e Senha</title>
+
+    <style>
+
+        label{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color:goldenrod;
+        }
+        .btn{
+            background-color: goldenrod;
+            border-radius: 10px;
+            border-color: gold;
+            box-shadow: 5px 5px 5px rgba(165, 42, 42, 0.534);
+            transition: 0.8s;
+        }
+
+        .btn:hover{
+            background-color: brown;
+            border-radius: 10px;
+            border-color: rgb(139, 42, 42);
+            box-shadow: 5px 5px 5px goldenrod;
+        }
+
+        input{
+            background-color: rgba(218, 165, 32, 0.26);
+            border-color: gold;
+            border-radius: 5px;
+            color: rgb(39, 35, 13);
+            transition: 0.8s;
+            width: 20%;
+        }
+
+        input:hover {
+            background-color: rgba(255, 217, 0, 0.568);
+            border-color: brown;
+            border-radius: 5px;
+            color: rgb(39, 35, 13);
+        }
+
+
+
+        body{
+            background-color: gold;
+            transition: 2s;
+        }
+
+        .user{
+            /* background-color: black; */
+        }
+
+        .psswrd{}
+
+        /* .box{
+            
+        } */
+
+        fieldset{
+            border-color: black;
+            border-radius: 8px;
+            background-color: rgba(110, 86, 18, 0.781);
+            width: 90%;
+            height: 10%;
+            transition: 2s;
+        }
+
+        .box{
+            margin-top: 20%;
+            padding-top: 20px;
+            padding-bottom: 15px;
+            background-color: rgb(121, 5, 253);
+            width: 50%;
+            height: 20%;
+            border-radius: 10px;
+            border-color: rgba(137, 43, 226, 0.705);
+            transition: 2s;
+            /* background-size: 100%; */
+        }
+
+        legend{
+            background-color: rgb(54, 0, 47);
+            color: rgba(255, 217, 0, 0.795);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-radius: 8px;
+            border-color: black;
+        }
+
+        @media only screen and (max-width: 600px) {
+  body {
+    background-color: purple;
+  }
+  label{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color:goldenrod;
+        }
+        .btn{
+            background-color: goldenrod;
+            border-radius: 10px;
+            border-color: gold;
+            box-shadow: 5px 5px 5px rgba(165, 42, 42, 0.534);
+            transition: 0.8s;
+            margin-top: 10%;
+        }
+
+        .btn:hover{
+            background-color: brown;
+            border-radius: 10px;
+            border-color: rgb(139, 42, 42);
+            box-shadow: 5px 5px 5px goldenrod;
+        }
+
+        input{
+            background-color: rgba(218, 165, 32, 0.26);
+            border-color: gold;
+            border-radius: 5px;
+            color: rgb(39, 35, 13);
+            transition: 0.8s;
+            width: 60%;
+        }
+
+        input:hover {
+            background-color: rgba(255, 217, 0, 0.568);
+            border-color: brown;
+            border-radius: 5px;
+            color: rgb(39, 35, 13);
+        }
+
+        .user{
+            /* background-color: black; */
+        }
+
+        .psswrd{}
+
+        /* .box{
+            
+        } */
+
+        fieldset{
+            border-color: black;
+            border-radius: 8px;
+            background-color: rgba(110, 86, 18, 0.781);
+            width: 10px;
+            height: 10%;
+        }
+
+        .box{
+            margin-top: 20%;
+            padding-top: 20px;
+            padding-bottom: 15px;
+            background-color: gold;
+            width: 50%;
+            height: 20%;
+            border-radius: 10px;
+            border-color: rgba(137, 43, 226, 0.705);
+            /* background-size: 100%; */
+        }
+
+        legend{
+            background-color: rgb(54, 0, 47);
+            color: rgba(255, 217, 0, 0.795);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-radius: 8px;
+            border-color: black;
+        }
+}
+
+</style>
 </head>
 
 
 <body>
     
     <form action="" method="">
+    <center>
         <br>
+<div class="box">
+    <fieldset>
+        <legend>LOGIN</legend>
         <label>Usuário</label>
-        <input type="text" name="usuario">
-        <br><br>
-        <label>Usuário</label>
-        <input type="text" name="usuario">
-        <br><br><br>
-        <input type="submit" name="btnLogar" value="LOGAR">
+        <input class="user" type="text" name="usuario">
+        <!-- <br><br> -->
+        <label>Senha</label>
+        <input class="psswrd" type="password" name="senha">
+        <!-- <br><br><br> -->
+        <input class="btn" type="submit" name="btnLogar" value="LOGAR">
+    </fieldset>
+</div>
+    </center>
     </form>
 
 </body>
