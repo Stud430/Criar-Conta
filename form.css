@@ -1,0 +1,29 @@
+body{
+    background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/8689974-premium-abstrato-luxo-vermelho-e-preto-com-o-gradiente-e-o-com-piso-parede-metal-textura-soft-tech-background-design-vector-illustration-for-website-poster-brochura-apresentacao-modelo-etc-vetor.jpg');
+    background-size: cover;
+}
+form{
+    background-color: rgba(0, 0, 0, 0.542);
+    color: white;
+    font-size: 20px;
+    width: 300px;
+    margin:auto;
+    /* margin-left: 1350px;
+    margin-top: 350px; */
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+#btn{
+    background-color: red;
+    color: white;
+    margin-left: 115px;
+    border-radius: 10px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+input{
+    border: none;
+}
