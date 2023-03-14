@@ -9,18 +9,74 @@
 
 
 <body>
-    
+    <style>
+
+        body {
+            background-image: url(img/red_galaxy.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        fieldset {
+            margin-top: 250px;
+            width: 300px;
+            height: 200px;
+            background-color: rgb(150, 50, 50);
+            color: rgb(0, 0, 0);
+            border-radius: 10px;
+            font-size: 18px;
+        }
+
+        #login {
+            margin-left: 10px;
+            border-radius: 10px;
+        }
+
+        #senha {
+            margin-left: 22px;
+            border-radius: 10px;
+        }
+
+        #btn {
+            border-radius: 10px;
+            width: 100px;
+        }
+
+        #btn:hover {
+            background-image: linear-gradient(to right,rgb(150, 50, 50), rgb(150, 50, 50));
+            border-radius: 10px;
+        }
+        
+        @media (max-width: 989px){
+                fieldset{
+                    width: 65%;
+                    
+                    top: 50%;
+                    left: 50%;
+                }
+                body {
+                    display: fixed;
+                }
+            }
+        
+
+        </style>
+
+    </style>
+    <center>
+    <fieldset>
     <form action="" method="">
-        <br>
-        <label>Usuário</label>
-        <input type="text" name="usuario">
         <br><br>
         <label>Usuário</label>
-        <input type="text" name="usuario">
+        <input id=login type="text" name="usuario">
+        <br><br>
+        <label>Senha</label>
+        <input id=senha type="password" name="senha">
         <br><br><br>
-        <input type="submit" name="btnLogar" value="LOGAR">
+        <input id=btn type="submit" name="btnLogar" value="LOGAR">
     </form>
-
+</fieldset>
+</center>
 </body>
 
 
