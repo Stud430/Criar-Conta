@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+main {
+    width: 20vw;
+    height: 50vh;
+    margin: auto;
+    background-color: lightslategray;
+    margin-top: 10vh;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main form label, input {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+main form .btn {
+    width: 25%;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+}
