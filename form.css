@@ -1,0 +1,45 @@
+body{
+    background-image: url('https://images.alphacoders.com/265/265693.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.box{
+
+    background-color: rgba(255, 255, 255, 0.486);
+    margin: auto;
+    margin-top: 10rem;
+    padding: 2rem;
+    width: clamp(12rem, 50%, 13rem) ; height: 10rem;
+    box-shadow: -1rem 1rem 3rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid none;
+    color: #000;
+    
+}
+.input{
+    background-color: transparent;
+    width: clamp(13rem, 50%, 15rem);
+    border: none;
+    border-bottom:.05px solid rgb(255, 255, 255);
+    
+}
+.input:hover{
+    border-bottom: .05px solid #F00;
+}
+
+
+.btn{
+    margin-left: 1.5rem ;
+    border-radius: .5rem;
+    border: none;
+    background-color: #000;
+    width: clamp(10rem, 50%, 12rem); height: 2rem;
+    color: #FFF;
+
+    
+}
+.btn:hover{
+    border: .05px solid #F00; 
+    color: #F00;
+}
