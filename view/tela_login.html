@@ -7,20 +7,57 @@
     <title>Login e Senha</title>
 </head>
 
+<div>
+
+<style>
+    body{
+        background-color: rgb(105, 0, 0);
+        color: white;
+        height: 100px;
+        text-align: center;
+        padding-top: 10px;
+        margin-left: 800px;
+        margin-right: 800px;
+        height: 170px;
+        border-width: 10px;
+        border-style: outset;
+        border-color: black;
+    }
+#submit{
+    background-color: rgb(168, 168, 168);
+    width: 30%;
+    border: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#submit:hover{
+    background-color: rgb(117, 0, 0);
+}
+
+
+</style>
 
 <body>
-    
     <form action="" method="">
         <br>
         <label>Usuário</label>
-        <input type="text" name="usuario">
+        <input type="text" name="usuario" required>
         <br><br>
-        <label>Usuário</label>
-        <input type="text" name="usuario">
-        <br><br><br>
-        <input type="submit" name="btnLogar" value="LOGAR">
+        <label>Senha</label>
+        <input type="text" name="senha" required>
+        <br><br>
+        <label>Senha</label>
+        <input type="date" name="senha" required>
+        <br><br>
+        <input id="submit" type="submit" name="submit" value="LOGAR">
     </form>
-
+</div>
+</div>
 </body>
 
 
