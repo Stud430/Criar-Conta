@@ -4,23 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login e Senha</title>
+ 
+       <title>Login e Senha</title>
 </head>
+    <style>
 
+        body{
+            align-items: center;
+            text-align: center;
+            background-color: darkblue;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #inputi{
+           
+            border: 1px solid rgb(218, 167, 0);
+           width: 50%;
+        }
+        label{
+            
+            font-size: 17px;
+            color: black;
+        }
+        #btn{
+            height: 30px;
+            width: 30%;
+            color: rgb(218, 167, 0);
+            font-size: 80%;
+            box-shadow: 5px 5px 5px;
+            border: 1px solid rgb(218, 167, 0);
+            background-color: darkblue;
+            border-radius: 10px;
+            transition: 2s;
+        }
+        #btn:hover{
+            height: 35px;
+            width: 40%;
+            
+            color: darkblue;
+            font-size: 18px;
+            box-shadow: 5px 5px 5px;
+            background-color: rgb(218, 167, 0);
+            border-radius: 10px;
+            
+        }
+        .box{
+            background-color: aliceblue;
+            height: 30%;
+            width: 25%;
+            border-radius: 50px; 
+            padding: 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border: 2px solid rgb(218, 167, 0);
+           margin-top: 20%;
+           transition: 2s;
+        }
+        @media (max-width: 969px) {
+            #btn{
+                height: 30px;
+            width: 30%;
+            color: rgb(218, 167, 0);
+            font-size: 80%;
+            box-shadow: 5px 5px 5px;
+
+            background-color: darkblue;
+            border-radius: 10px;
+            transition: 2s;
+        }
+        #btn:hover{
+            height: 35px;
+            width: 50%;
+            
+            color: darkblue;
+            font-size: 18px;
+            box-shadow: 5px 5px 5px;
+            background-color: rgb(218, 167, 0);
+            border-radius: 10px;
+            
+        }
+        .box{
+            background-color: aliceblue;
+            height: 50%;
+            width: 35%;
+            border-radius: 50px; 
+            padding: 10px;
+            padding-top: 20px;
+            border: 2px solid rgb(218, 167, 0);
+           margin-top: 20%;
+        }   
+        }
+    </style>
 
 <body>
-    
-    <form action="" method="">
+    <center>
+    <div class="box">
+    <form action="" method="post">
         <br>
         <label>Usuário</label>
-        <input type="text" name="usuario">
+        <input id="inputi" type="text" name="usuario">
         <br><br>
-        <label>Usuário</label>
-        <input type="text" name="usuario">
+        <label>Senha</label>
+        <input id="inputi" type="password" name="senha">
         <br><br><br>
-        <input type="submit" name="btnLogar" value="LOGAR">
+      
+        <input id="btn" type="submit" name="btnLogar" value="LOGAR">
     </form>
-
+    </div>
+</center>
 </body>
 
 
